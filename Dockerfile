@@ -44,6 +44,8 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     libpcap-dev \
     # libcap-dev is the correct dev package name for libcap utilities
     libcap-dev \
+	#IMPORTANT static build needed, in other case unpredictable bugs with container possible
+	busybox-static \
     # Clean up apt lists to keep the image size down
     && rm -rf /var/lib/apt/lists/*
 
