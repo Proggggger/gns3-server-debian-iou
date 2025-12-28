@@ -2,6 +2,9 @@
 ## Based on jsimonetti/gns3-server
 [![](https://images.microbadger.com/badges/version/jsimonetti/gns3-server.svg)](https://microbadger.com/images/jsimonetti/gns3-server "Get your own version badge on microbadger.com")[![](https://images.microbadger.com/badges/image/jsimonetti/gns3-server.svg)](https://microbadger.com/images/jsimonetti/gns3-server "Get your own image badge on microbadger.com")[![](https://img.shields.io/docker/pulls/jsimonetti/gns3-server.svg)]()[![](https://img.shields.io/docker/stars/jsimonetti/gns3-server.svg)]()
 
+## Upd. 28.12.2025
+busybox-static added to Dockerfile, to fix critical bug with containers starting, so please update and rebuild container
+
 
 ## Usage
 
